@@ -8,5 +8,6 @@ public class Main {
         speakables.add(new Dog());
         Zoo zoo = new Zoo(speakables);
         zoo.start();
+        System.out.println();
     }
 }
